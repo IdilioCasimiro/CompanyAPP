@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CompanyAPP.Client;
+using CompanyAPP.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +13,7 @@ namespace CompanyAPP
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new FuncionariosPage();
         }
 
         protected override void OnStart()
